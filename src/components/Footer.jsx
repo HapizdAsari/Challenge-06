@@ -4,6 +4,7 @@ import IG from "../image/icon_instagram.png";
 import TWITTER from "../image/icon_twitter.png";
 import EMAIL from "../image/icon_mail.png";
 import TWITCH from "../image/icon_twitch.png";
+import logo from "../image/logo.png";
 
 
 const Footer =()=>{
@@ -34,7 +35,7 @@ const Footer =()=>{
 
           <div className="footer_copy">
             <p>Copyright Binar 2022</p>
-            <a href=""><img src="images/logo.png" alt="" /></a>
+            <a href=""><img src={logo} alt="" /></a>
           </div>
         </div>
       </div>
