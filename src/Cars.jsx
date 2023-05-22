@@ -2,7 +2,9 @@ import React from "react";
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/HeroCariMobil';
+import FilterCars from "./components/Filtercars";
 import Footer from "./components/Footer";
+
 
 
 function Cars() {
@@ -10,6 +12,7 @@ function Cars() {
     <>
     <Navbar />
     <Hero />
+    <FilterCars/>
     <Footer/>
     </>
   );
