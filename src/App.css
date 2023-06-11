@@ -16,7 +16,7 @@ body {
 /* ********** NAVBAR SECTION BEGIN ********** */
 .navbar {
   padding: 0.5em 6.8em;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 999999999;
 }
